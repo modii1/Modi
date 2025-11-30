@@ -1,0 +1,7 @@
+name = "modi-worker"
+main = "worker.js"  # سكريبت السيرفر
+compatibility_date = "2025-11-30"
+
+# هذا يخبر Wrangler أن "dist" هو مجلد الأصول
+[assets]
+directory = "./dist/public"
